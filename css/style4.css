@@ -1,0 +1,37 @@
+body{
+    background-color: blanchedalmond;
+}
+p{
+    font-size: 50px;
+    border: solid 30px;
+    width: 50%;
+    text-align: center;
+    color: blue;
+}
+table{
+    margin: auto;
+    border: double 5px black;
+    width: 50%;
+}
+th, td{
+    border: solid 1px purple;
+    width: 25%;
+    height: 1cm;
+    font-size: 25px;
+}
+tr:hover{
+    background-color: lightskyblue;
+}
+td:hover{
+    color: chartreuse;
+    text-align: center;
+    font-size: 30px;
+}
+tr:nth-child(odd){
+    background-color: azure;
+}
+caption{
+    font-size: 50px;
+    font-family: 'Hanalei', cursive;
+    color: purple;
+}
